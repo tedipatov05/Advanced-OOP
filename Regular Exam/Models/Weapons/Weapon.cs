@@ -15,6 +15,7 @@ namespace PlanetWars.Models.Weapons
             this.DestructionLevel = destructionLevel;
             this.Price = price;
         }
+
         public double Price { get; private set; }
 
         public int DestructionLevel
